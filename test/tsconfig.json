@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "noEmit": true,
+    "paths": {
+      "@models/*": ["./../src/models/*"]
+    }
+  },
+  "include": ["../src/**/*.ts", "**/*.ts"]
+}
